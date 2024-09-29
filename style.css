@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: #19191B;
+    font-family: "Nunito Sans", sans-serif;
+}
+header {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    right: 33px;
+}
+.logo {
+    margin-left: 138px;
+    padding: 20px;
+}
+img.image1 {
+    position: relative;
+    bottom: 9px;
+}
+header div{
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul {
+    list-style: none;
+    margin-right: 140px;
+    margin-top: 13px;
+}
+header .nav ul li{
+    
+    padding-right: 23px;
+    padding-top: 15px;
+    display: inline-block;
+}
+header .nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+header .nav ul li a:active{
+    color:blue;
+}
+button.head-btn {
+    position: relative;
+    left: 202px;
+    color: white;
+    background: #19191B;
+    font-size: 16px;
+    padding: 6px 24px 7px 23px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.section-1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 81px;
+    position: relative;
+    right: 21px;
+}
+.about-img {
+    margin-right: 40px;
+}
+img.img1 {
+    position: relative;
+    bottom: -411px;
+    width: 55px;
+}
+
+img.img3 {
+    position: relative;
+    top: 253px;
+    z-index: 1;
+}
+img.img4 {
+    position: relative;
+    bottom: 303px;
+    left: 60px;
+}
+img.img5 {
+    position: relative;
+    top: 435px;
+    left: 471px;
+    width: 46px;
+}
+img.img6 {
+    position: relative;
+    bottom: 172px;
+    left: 88px;
+}
+img.img6 {
+    position: relative;
+    bottom: 254px;
+    left: 88px;
+}
+img.image {
+    position: relative;
+    top: 978px;
+    right: 159px;
+    width: 60px;
+}
+.section-1 h1 {
+    color: #FFFFFF;
+    font-size: 77px;
+    font-weight: bold;
+    margin-left: 157px;
+    line-height: 79px;
+}
+.section-1 p {
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+    margin-left: 160px;
+    margin-top: 13px;
+}
+button.first-btn {
+    position: relative;
+    top: 24px;
+    left: 161px;
+    padding: 10px 31px 10px 24px;
+    background: #5454D4;
+    color: white;
+    font-family: 'Nunito Sans';
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+img.btn-img {
+    position: relative;
+    top: 31px;
+    left: 126px;
+    width: 20px;
+}
+.section-2 {
+    width: 100%;
+    height: 491px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 123px;
+    position: relative;
+    right: 21px;
+}
+.section-2 h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Nunito Sans';
+    margin-left: 159px;
+}
+.section-2 p {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 86px;
+    margin-top: -54px;
+}
+img.bg-img {
+    position: relative;
+    bottom: 141px;
+    left: 137px;
+}
+img.tri-img {
+    position: relative;
+    left: 204px;
+    width: 88px;
+}
+.section-4 {
+    width: 100%;
+    height: 491px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 101px;
+    padding: 58px;
+}
+.section-3 h1 {
+    color: white;
+    font-size: 59px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: -86px;
+    text-align: center;
+    line-height: 67px;
+}
+img.img-3 {
+    position: relative;
+    float: right;
+    width: 22px;
+    bottom: 41px;
+    right: 132px;
+}
+.skills {
+    width: 33.33%;
+    text-align: center;
+    padding: 84px;
+}
+
+.skills img{
+    width: 41px;
+}
+.skills h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+.skills p {
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.section-5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px;
+    margin-top: -339px;
+}
+img.image-4 {
+    position: relative;
+    left: 93px;
+    width: 20px;
+    top: -82px;
+}
+.section-6 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 74px 39px 73px;
+}
+.head6 {
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: -5px;
+    margin-top: -28px;
+}
+img.image7 {
+    position: relative;
+    right: 39px;
+    width: 31px;
+}
+.section-7 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 74px 39px 73px;
+}
+img.grp2 {
+    position: relative;
+    top: 70px;
+}
+img.grp3 {
+    position: relative;
+    top: 164px;
+}
+.section-8 img {
+    margin-top: 175px;
+    margin-left: 50px;
+    width: 54px;
+}
+.section-8 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+img.imge9 {
+    margin-right: 647px;
+}
+.section-9 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    background: #1C1B1D;
+    height: 400px;
+}
+img.images10 {
+    position: relative;
+    float: right;
+    top: 162px;
+    right: 97px;
+    width: 26px;
+}
+.section-9 h1 {
+    color: white;
+    font-size: 59px;
+    font-weight: bold;
+    margin-left: 105px;
+    margin-top: -86px;
+    text-align: left;
+    line-height: 67px;
+}
+.section-9 button {
+    padding: 13px 41px 14px 36px;
+    background: #5454D4;
+    color: white;
+    font-family: 'Nunito Sans';
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-right: 88px;
+    margin-bottom: 61px;
+}
+img.imge11 {
+    position: relative;
+    bottom: 96px;
+    left: 144px;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -65px;
+    height: 100px;
+    padding: 18px 29px 32px 79px;
+}
+.mid-foot {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p.p1 {
+    padding: 21px;
+    color: white;
+    font-size: 14px;
+}
+p.footer-p {
+    color: whitesmoke;
+    font-size: 14px;
+    margin-right: 48px;
+}
+.footer-img {
+    margin-left: 26px;
+}
+img.foot-img {
+    margin-bottom: 10px;
+}
